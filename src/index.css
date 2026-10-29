@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #130b1c;
+    color: #fff8f0;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(251, 146, 60, 0.18), transparent),
+      radial-gradient(ellipse 60% 40% at 85% 20%, rgba(236, 72, 153, 0.14), transparent),
+      linear-gradient(180deg, #1b0f29 0%, #120a1c 50%, #0d0714 100%);
+    background-attachment: fixed;
+  }
+}
+
+.font-argus-display {
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 0.03em;
+  text-shadow: 0 3px 0 #000000, 0 6px 14px rgba(0, 0, 0, 0.65);
+}
+
+.font-argus-script {
+  font-family: 'Caveat', cursive;
+}
+
+.argus-sunset-gradient-text {
+  background: linear-gradient(90deg, #fde047 0%, #fb923c 48%, #f472b6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.argus-card {
+  background: linear-gradient(180deg, rgba(35, 20, 52, 0.88) 0%, rgba(22, 12, 34, 0.92) 100%);
+  border: 1px solid rgba(251, 146, 60, 0.22);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
+}
+
+.argus-btn-primary {
+  background: linear-gradient(90deg, #f59e0b 0%, #f97316 50%, #ec4899 100%);
+  color: #12091c;
+  font-weight: 700;
+  box-shadow: 0 4px 16px rgba(249, 115, 22, 0.35);
+}
+
+.argus-btn-primary:hover {
+  filter: brightness(1.08);
+  box-shadow: 0 6px 22px rgba(236, 72, 153, 0.45);
+}
